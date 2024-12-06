@@ -4,6 +4,10 @@ import Hero from './sections/hero'; // Capitalized component name
 import PopularProducts from './sections/popularProducts';
 import SuperQuality from './sections/superQuality';
 import Services from './sections/services';
+import SpecialOffer from './sections/specialOffer';
+import CustomerReviews from './sections/CustomReview';
+import Subscribe from './sections/subscribe';
+import Footer from './sections/footer';
 const App = () => (
   <main className="relative">
     <Nav />
@@ -21,16 +25,16 @@ const App = () => (
       <Services/>
     </section>
     <section className="padding">
-      Special Offer {/* Corrected spelling */}
+      <SpecialOffer/>
     </section>
     <section className="bg-pale-blue padding">
-      Customer Reviews {/* Corrected spelling */}
+      <CustomerReviews/>
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
-      Subscribe
+      <Subscribe/>
     </section>
     <section className="bg-black padding-x padding-t pb-8">
-      Footer
+      <Footer/>
     </section>
   </main>
 );
